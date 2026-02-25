@@ -1,20 +1,15 @@
 # ElogitNorm: Enhancing Out-of-Distribution Detection with Extended Logit Normalization
+
+<p align="center">
+  <img src="framework.png" width="1000">
+</p>
+
 Official implementation **Extended Logit Normalization (ELogitNorm)** of the CVPR 2026 paper: [Enhancing Out-of-Distribution Detection with Extended Logit Normalization](https://arxiv.org/pdf/2504.11434). The codebase is adapted from and integrated into the 
 [OpenOOD Benchmark](https://github.com/Jingkang50/OpenOOD/tree/main). 
 
 
 We analyze the feature collapse issue in **[LogitNorm](https://github.com/hongxin001/logitnorm_ood)**, and propose a simple yet powerful method that significantly improves **Out-of-Distribution (OOD) detection** across standard benchmarks and confidence calibration without sacrificing in-distribution accuracy.
 
-------------------------------------------------------------------------
-
-```{=html}
-<p align="center">
-```
-`<img src="assets/framework.png" alt="Method Overview" width="750"/>`{=html}
-```{=html}
-</p>
-```
-------------------------------------------------------------------------
 
 ## Installation
 
@@ -33,7 +28,6 @@ git clone https://github.com/limchaos/ElogitNorm.git
 cd ElogitNorm
 ```
 
-------------------------------------------------------------------------
 
 ## Training
 
@@ -44,11 +38,10 @@ All training scripts are located in:
 You can directly use these scripts to reproduce the results reported in
 the paper across different datasets and model architectures.
 
-------------------------------------------------------------------------
 
 ## Evaluation examples
 
-### CIFAR-10 (ResNet-18 Benchmark)
+### CIFAR
 
 ``` bash
 python scripts/eval_ood.py \
@@ -59,7 +52,7 @@ python scripts/eval_ood.py \
     --save-csv
 ```
 
-### ImageNet (ResNet-50 Benchmark)
+### ImageNet
 
 ``` bash
 python scripts/eval_ood_imagenet.py \
@@ -85,6 +78,3 @@ If you find this work helpful for your research, please cite:
 ```
 
 
-
-
-```
