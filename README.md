@@ -1,7 +1,7 @@
 # ElogitNorm: Enhancing Out-of-Distribution Detection with Extended Logit Normalization
 
 <p align="center">
-  <img src="framework.png" width="1000">
+  <img src="assets/framework.png" width="1000">
 </p>
 
 Official implementation **Extended Logit Normalization (ELogitNorm)** of the CVPR 2026 paper: [Enhancing Out-of-Distribution Detection with Extended Logit Normalization](https://arxiv.org/pdf/2504.11434). The codebase is adapted from and integrated into the 
