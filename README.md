@@ -62,7 +62,13 @@ python scripts/eval_ood_imagenet.py \
     --save-score \
     --save-csv
 ```
+## Calibration
 
+Visualization of feature space calibration:
+
+<p align="center">
+  <img src="assets/vis.png" width="1000">
+</p>
 
 ## Citation
 
