@@ -1,4 +1,4 @@
-# ElogitNorm: Enhancing Out-of-Distribution Detection with Extended Logit Normalization
+# Enhancing Out-of-Distribution Detection with Extended Logit Normalization (ELogitNorm)
 
 <p align="center">
   <img src="assets/framework.png" width="1000">
