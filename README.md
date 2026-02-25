@@ -24,8 +24,8 @@ pip install git+https://github.com/Jingkang50/OpenOOD
 Then clone this repository:
 
 ``` bash
-git clone https://github.com/limchaos/ElogitNorm.git
-cd ElogitNorm
+git clone https://github.com/limchaos/ELogitNormOOD.git
+cd ELogitNormOOD
 ```
 
 
