@@ -17,6 +17,7 @@ from .dsvdd_trainer import AETrainer, DSVDDTrainer
 from .godin_trainer import GodinTrainer
 from .kdad_trainer import KdadTrainer
 from .logitnorm_trainer import LogitNormTrainer
+from .elogitnorm_trainer import ELogitNormTrainer
 from .mcd_trainer import MCDTrainer
 from .mixup_trainer import MixupTrainer
 from .mos_trainer import MOSTrainer
@@ -66,6 +67,7 @@ def get_trainer(net, train_loader: DataLoader, val_loader: DataLoader,
             'dropout': DropoutTrainer,
             'csi': CSITrainer,
             'logitnorm': LogitNormTrainer,
+            'elogitnorm': ELogitNormTrainer,
             'rd4ad': Rd4adTrainer,
             'rts': RTSTrainer,
             'rotpred': RotPredTrainer,

@@ -1,0 +1,13 @@
+# training outputs, logs, dataset symlink — not pushed
+results/
+logs/
+data
+data/
+
+# python bytecode
+__pycache__/
+*.pyc
+*.pyo
+
+# NFS leftovers
+.nfs*
